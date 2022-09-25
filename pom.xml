@@ -19,11 +19,15 @@
 			<artifactId>log4j</artifactId>
 			<version>${log4j.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.mina/mina-core -->
 		<dependency>
     			<groupId>org.apache.mina</groupId>
     			<artifactId>mina-core</artifactId>
     			<version>2.1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.synapse</groupId>
+    			<artifactId>synapse-core</artifactId>
+    			<version>3.0.0</version>
 		</dependency>
 	</dependencies>
 
